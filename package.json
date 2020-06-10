@@ -1,0 +1,19 @@
+{
+  "name": "sunshine",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "story": "lerna run story --stream",
+    "prestart": "lerna run libbuild --stream",
+    "start": "lerna run start --stream"
+  }
+}
