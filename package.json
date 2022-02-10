@@ -78,7 +78,7 @@
     "mobx": "5.15.4",
     "mobx-react-lite": "2.0.7",
     "mobx-state-tree": "3.16.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "postcss": "^7.0.32",
     "postcss-cli": "7.1.1",
     "react": "16.13.1",
